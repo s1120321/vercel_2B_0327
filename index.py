@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    homepage = "<h1>洪藝文Python網頁(時間+8)</h1>"
+    homepage = "<h1>洪藝文Python網頁(時間+8)(get傳值)</h1>"
     homepage += "<a href=/mis>MIS</a><br>"
     homepage += "<a href=/today>顯示日期時間</a><br>"
     homepage += "<a href=/welcome?hi=藝文&work=aaa>傳送使用者暱稱</a><br>"
